@@ -7,9 +7,9 @@ jobs:
   testing:
     runs-on: ubuntu-latest
     steps:
-      -name: Message Print
-       id: message-print
-       shell: bash
-       run: |
-          echo "Message Sent"
+      - name: Message Print
+        id: message-print
+        shell: bash
+        run: |
+          echo "Message Sent."
        
